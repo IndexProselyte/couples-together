@@ -1,0 +1,58 @@
+# Local assistant and editor state
+.claude/
+.codex/
+.agents/
+.cursor/
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+AGENTS.md
+CLAUDE.md
+
+# Private planning documents
+APP_DOCUMENTATION.md
+IMPROVEMENTS.md
+design_spec.md
+For who this app is..txt
+TODO.md
+TODOS.md
+
+# Credentials, machine configuration, and personal data exports
+.env
+.env.*
+!.env.example
+*.local.json
+*.local.yaml
+*.local.yml
+local.properties
+key.properties
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+google-services.json
+GoogleService-Info.plist
+service-account*.json
+service_account*.json
+*.db
+*.sqlite
+*.sqlite3
+*.log
+.DS_Store
+Thumbs.db
+
+# Generated files and build outputs
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.gradle/
+build/
+coverage/
+*.apk
+*.aab
+*.ipa
